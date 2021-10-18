@@ -43,24 +43,6 @@ const ExpenseForm = (props) => {
   //     // });
   //   };
 
-  //   const amountChangeHandler = (event) => {
-  //     setEnteredData((prevState) => {
-  //       return {
-  //         ...prevState,
-  //         enteredAmount: event.target.value,
-  //       };
-  //     });
-  //   };
-
-  //   const dateChangeHandler = (event) => {
-  //     setEnteredData((prevState) => {
-  //       return {
-  //         ...prevState,
-  //         enteredDate: event.target.valueAsDate,
-  //       };
-  //     });
-  //   };
-
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
   };
