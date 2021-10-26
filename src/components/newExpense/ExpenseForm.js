@@ -23,19 +23,6 @@ const ExpenseForm = (props) => {
 
     props.setIsFormVisible(false);
   };
-  //     const [enteredData, setEnteredData] = useState({
-  //     enteredTitle: "",
-  //     enteredAmount: "",
-  //     enteredDate: new Date(2019, 1, 1),
-  //   });
-
-  //   const titleChangeHandler = (event) => {
-  //     setEnteredData((prevState) => {
-  //       return {
-  //         ...prevState,
-  //         enteredTitle: event.target.value,
-  //       };
-  //     });
 
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
