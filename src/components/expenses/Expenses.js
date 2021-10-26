@@ -27,10 +27,6 @@ const Expenses = (props) => {
       />
       <ExpensesChart expenses={filteredItems} />
       <ExpensesList filteredItems={filteredItems} />
-      {/* {expenseItems} */}
-      {/* {items.length === 0 ? <p>No expenses found!</p> : items} */}
-      {/* {items.length === 0 && <p>No expenses found!</p>}
-      {items.length > 0 && items} */}
     </Card>
   );
 };
